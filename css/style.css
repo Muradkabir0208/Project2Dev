@@ -1,3 +1,37 @@
+/* span tag is used to target a portion in a specif paragraph or line in which we can later do edit and designing with the help of class */
+
+/*            DISPLAY PROPERTY
+ in dispay:none, that item gets disappeared as if it never existed
+ while in visibility: hidden, item gets disappeared only but still consumes its orignal space */
+
 body{
+    margin: 0;
+}
+
+h1{
+    margin-top: 0;
+}
+
+.top-container{
+    background-color: #e4f5f9;
+    border: solid 10px;
+    padding: 20px;
+}
+.middle-container{
     background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: solid 20px;
+    margin-left: 260px;
+}
+.bottom-container{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: solid 10px;
+    margin-left: 500px;
+}
+
+.span{
+    text-decoration: underline;
 }
